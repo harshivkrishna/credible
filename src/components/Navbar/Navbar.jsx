@@ -26,7 +26,7 @@ const Navbar = () => {
         
         {/* Menu Icon for Small Screens */}
         <div className="menu-icon" onClick={toggleSidebar}>
-          <i className="bx bx-menu"></i>
+          <i className={`bx bx-${!sidebarOpen?'menu':''}`}></i>
         </div>
       </nav>
 
@@ -41,10 +41,11 @@ const Navbar = () => {
           <i className="bx bx-x"></i>
         </div>
         <div className="sidebar-links">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Contact</a>
+          <a href="#">HOME</a>
+          <a href="#">ABOUT</a>
+          <a href="#">EXPERIENCE</a>
+          <a href="#">INFO</a>
+          <button className='nav-btn'>CONNECT</button>
         </div>
       </motion.div>
     </div>
