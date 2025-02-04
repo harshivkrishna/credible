@@ -1,0 +1,30 @@
+.gallery-container{
+    padding: 40px 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-gallery-container{
+    display: flex;
+}
+
+.top-gallery-container img{
+    margin: 2px;
+}
+
+.bottom-gallery-container {
+    display: flex;
+}
+
+.bottom-gallery-container img{
+    margin: 2px;
+    object-fit: contain;
+}
+
+@media (max-width:1240px) {
+    .bottom-gallery-container img{
+        max-width: 50%;
+    }
+}

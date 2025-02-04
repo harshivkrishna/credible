@@ -5,6 +5,7 @@ import Descp from './components/Descp/Descp'
 import Video from './components/Video/Video'
 import Everything from './components/Everything/Everything'
 import Whyus from './components/Whyus/Whyus'
+import Gallery from './components/Gallery/Gallery'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Video/>
       <Everything/>
       <Whyus/>
+      <Gallery/>
     </div>
   )
 }
