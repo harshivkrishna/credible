@@ -6,6 +6,7 @@ import Video from './components/Video/Video'
 import Everything from './components/Everything/Everything'
 import Whyus from './components/Whyus/Whyus'
 import Gallery from './components/Gallery/Gallery'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Everything/>
       <Whyus/>
       <Gallery/>
+      <Footer/>
     </div>
   )
 }

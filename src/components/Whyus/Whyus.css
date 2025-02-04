@@ -15,7 +15,7 @@
 
 .whyus-container h2{
     font-size: 45px;
-    color: white;
+    color:white;
     font-weight: 500;
     margin-bottom: 40px;
 }
@@ -27,4 +27,10 @@
     font-weight: 700;
     font-size: 15px;
     font-family: 'Poppins',sans-serif;
+}
+
+@media (max-width:700px) {
+    .whyus-container h2{
+        font-size: 20px;
+    }
 }

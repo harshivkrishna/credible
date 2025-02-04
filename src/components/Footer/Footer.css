@@ -1,0 +1,90 @@
+.footer{
+    background-color: rgb(245, 237, 230);
+    display: flex;
+    align-items: center;
+    padding: 30px 5%;
+}
+
+.first-footer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-basis: 35%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-title-container p{
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Poppins',sans-serif;
+}
+
+.footer-title-container h4{
+    font-size: 19px;
+    font-weight: 900;
+    font-family: 'Poppins',sans-serif;
+}
+
+.footer-subtitle{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Poppins',sans-serif;
+    margin: 30px 0;
+}
+
+.footer-social-icons{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-social-icons a i{
+    font-size: 30px;
+}
+
+.copy-text{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.connect-footer-container{
+    background-color: rgb(176, 175, 175);
+    padding: 40px 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.img-footer-container{
+    flex-basis: 50%;
+}
+
+.reach-footer-container{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reach-footer-container p{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Poppins',sans-serif;
+    margin-bottom: 40px;
+}
+
+.reach-footer-container button{
+    height: 40px;
+    width: 200px;
+    background-color: #c07a5f;
+    font-weight: 500;
+    color: white;
+}
