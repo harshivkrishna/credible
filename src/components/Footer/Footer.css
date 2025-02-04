@@ -88,3 +88,24 @@
     font-weight: 500;
     color: white;
 }
+
+
+@media (max-width:1090px) {
+    .connect-footer-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .reach-footer-container{
+        padding:0 10% ;
+    }
+}
+
+@media (max-width:920px) {
+    .footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .connect-footer-container{
+        background-color: transparent;
+    }
+}
