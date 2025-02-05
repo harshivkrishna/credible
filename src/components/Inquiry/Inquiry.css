@@ -1,0 +1,61 @@
+.inquiry-container{
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(/assets/inquiry.avif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    min-height: 100vh;
+    padding: 40px 5%;
+    justify-content: center;
+}
+
+.inquiry-container h1{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: white;
+    text-transform: uppercase;
+}
+
+.inquiry-connect-container{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.inquiry-connect-container h4{
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+    font-family: 'Poppins';
+}
+
+.inquiry-connect-container a button {
+    background-color:antiquewhite;
+    height: 40px;
+    width: 200px;
+    border-bottom: 1.5px solid #c07a5f;
+    border-right: 2.5px solid #c07a5f;
+    color: #c07a5f;
+    font-family: 'Roboto Condensed';
+    letter-spacing: 2px;
+}
+
+@media (max-width:970px) {
+    .inquiry-connect-container{
+        flex-direction: column;
+        gap: 5rem;
+    }
+}
+
+@media (max-width:600px) {
+    .inquiry-container h1{
+        font-size: 40px;
+    }
+
+    .inquiry-connect-container h4{
+        font-size: 25px;
+    }
+}

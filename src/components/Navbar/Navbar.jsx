@@ -17,11 +17,11 @@ const Navbar = () => {
         
         {/* Navbar Links for Large Screens */}
         <div className="navbar-links">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Contact</a>
-          <button className='nav-btn'>CONNECT</button>
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/services">Services</a>
+          <a href="/contact">Contact</a>
+          <a href="/connect"><button className='nav-btn'>CONNECT</button></a>
         </div>
         
         {/* Menu Icon for Small Screens */}
@@ -41,11 +41,11 @@ const Navbar = () => {
           <i className="bx bx-x"></i>
         </div>
         <div className="sidebar-links">
-          <a href="#">HOME</a>
-          <a href="#">ABOUT</a>
-          <a href="#">EXPERIENCE</a>
-          <a href="#">INFO</a>
-          <button className='nav-btn'>CONNECT</button>
+        <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/services">Services</a>
+          <a href="/contact">Contact</a>
+          <a href="/connect"><button className='nav-btn'>CONNECT</button></a>
         </div>
       </motion.div>
     </div>
