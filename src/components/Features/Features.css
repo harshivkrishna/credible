@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:regular,italic,700);
+.features-container{
+    background-image: url(/assets/features.avif);
+    min-width: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-container h1{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: "Poppins";
+    color: white;
+    
+}
+
+.features-container h4{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    font-family: 'Libre Baskerville';
+    margin-bottom: 40px;
+}
