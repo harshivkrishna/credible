@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:regular,italic,700);
 .features-container{
     background-image: url(/assets/features.avif);
-    min-width: 100vh;
+    min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -25,4 +25,14 @@
     color: white;
     font-family: 'Libre Baskerville';
     margin-bottom: 40px;
+}
+
+@media (max-width:600px) {
+    .features-container h1{
+        font-size: 30px;
+    }
+
+    .features-container h4{
+        font-size: 15px;
+    }
 }

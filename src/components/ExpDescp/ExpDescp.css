@@ -31,3 +31,12 @@
     font-weight: 200;
     font-family: 'Poppins',sans-serif;
 }
+
+@media (max-width:700px) {
+    .exp-descp-container h2{
+        font-size: 27px;
+    }
+    .exp-text-container{
+        flex-direction: column;
+    }
+}

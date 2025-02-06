@@ -13,3 +13,9 @@
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+@media (max-width:600px) {
+    .present h2{
+        font-size: 25px;
+    }
+}
