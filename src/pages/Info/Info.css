@@ -1,0 +1,15 @@
+.info-img-1{
+    background-image: url(/assets/info1.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.info-img-2{
+    background-image: url(/assets/info2.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
