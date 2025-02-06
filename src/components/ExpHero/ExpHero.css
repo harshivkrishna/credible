@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Smooch+Sans:100,200,300,regular,500,600,700,800,900);
+.exp-hero-container{
+    background-image: url(/assets/experience.avif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.exp-hero-container h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    font-family: 'Poppins';
+}
+
+.exp-hero-container p{
+    color: white;
+    text-align: center;
+    font-family: 'Smooch Sans';
+    margin-bottom: -70px;
+    font-size: 30px;
+}
+

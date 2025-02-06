@@ -1,0 +1,33 @@
+.exp-descp-container{
+    background-color: #fffaf5;
+    min-height: 100vh;
+    padding: 40px 5%;
+}
+
+.exp-descp-container h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.exp-text-container{
+    display: flex;
+    gap: 90px;
+    padding: 0 5%;
+    text-align: justify;
+}
+
+.exp-text-left-container{
+    flex-basis: 50%;
+}
+
+.exp-text-right-container{
+    flex-basis: 50%;
+}
+
+.exp-descp-container p{
+    margin-bottom: 30px;
+    font-weight: 200;
+    font-family: 'Poppins',sans-serif;
+}

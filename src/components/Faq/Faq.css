@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Smooch+Sans:100,200,300,regular,500,600,700,800,900);
+.faq-container {
+    padding: 40px 5%;
+    background-color: #fffaf5;
+}
+
+.faq-container h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.question-container{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10%;
+}
+
+.question-container h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(87, 84, 84);
+    font-family: 'Poppins';
+    margin-bottom: 35px;
+}
+
+.question-container p{
+    color: rgb(122, 118, 118);
+    font-family: 'Smooch Sans';
+    font-size: 20px;
+}
+
+.question-top{
+    align-self: flex-start;
+    width: 40%;
+}
+
+.question-bottom{
+    width: 40%;
+    align-self: flex-end;
+}
+
+.faq-container a{
+    margin-top: 30px;
+    font-family: 'Roboto Condensed';
+}
