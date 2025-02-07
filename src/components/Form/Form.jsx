@@ -1,6 +1,6 @@
 import './Form.css';
 import { useState } from 'react';
-import emailjs from 'emailjs';
+import emailjs from '@emailjs/browser';
 import 'react-toastify'
 import { ToastContainer, toast } from 'react-toastify';
 const Form = () => {
