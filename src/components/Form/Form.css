@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+.form-container{
+    background-color: #fffaf5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 5%;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.input-container label{
+    color: gray;
+}
+
+.input-container input,.input-container textarea{
+    border: 1.5px solid gray;
+    outline: none;
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.input-container textarea{
+    height: 100px !important;
+    resize: none;
+}
+
+
+.input-container input:hover,.input-container textarea:hover{
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+
+/* General Container Styling */
+.checkbox-container {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    width: 300px;
+  }
+  
+  .checkbox-title {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: gray;
+    font-weight: 200;
+    font-family: 'Poppins',sans-serif;
+  }
+  
+  /* Label Styling */
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: gray;
+  }
+  
+  /* Hide default checkbox */
+  .checkbox-input {
+    display: none;
+  }
+  
+  /* Custom checkbox appearance */
+  .custom-checkbox {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #999999;
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    background-color: white;
+    font-weight: 300;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  /* Checked state styling */
+  .checkbox-input:checked + .custom-checkbox {
+    border: 2px solid #999999;
+    border-radius: 0;
+  }
+  
+  .checkbox-input:checked + .custom-checkbox::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    width: 6px;
+    height: 10px;
+    border: solid #999999;
+
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  
+  .form-submit-btn{
+    height: 40px;
+    width: 170px;
+    background-color: #c07a5f;
+    color: white;
+    font-family: 'Roboto Condensed';
+    font-weight: 600;
+  }

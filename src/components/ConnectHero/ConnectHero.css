@@ -1,0 +1,30 @@
+.connect-container{
+    background-attachment: fixed;
+    background-image: url(/assets/connect.avif);
+    background-position: center;
+    background-size: cover;
+    min-height: 130vh;
+    position: relative;
+}
+
+.connect-container h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+
+.connect-container p{
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Libre Baskerville';
+    left: 50%;
+    transform: translate(-50%);
+}
+
