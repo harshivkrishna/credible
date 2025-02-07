@@ -142,6 +142,12 @@
     text-align: center;
   }
 
+  .team-member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .team-container{
     display: flex;
     gap: 20px;
@@ -151,10 +157,17 @@
 
 
   .team-member h3{
-    color: black;
+    color: #ebb85e;
     font-size: 20px;
     font-weight: 700;
+    font-family: 'Poppins';
+    letter-spacing: 2px;
   }  
+
+  .team-member p{
+    font-weight: 400;
+    font-family: 'Poppins';
+  }
   .team-member img {
     width: 80px;
     height: 80px;
@@ -179,15 +192,19 @@
         display: none;
     }
     .content-wrapper {
-        /* flex: unset; */
-        justify-content: center;
-        width: 100%;
+        all: unset;
+        justify-content: center !important;
+        width: 100% !important;
+        align-items: center;
     }
 
     .team-container{
         justify-content: center;
+        align-items: center;
         width: 100%;
         gap: 40px;
+        margin-top: 50px;
+        text-align: center;
     }
 
     .content{
