@@ -81,7 +81,7 @@ const Detail = () => {
               <img src="/assets/team/founder.jpg" alt="founder" />
               <h3>Gowtham Vijayakumar</h3>
               <p>Founder</p>
-              <a href="#"><i className="bx bxl-instagram"></i></a>
+              <a href="https://www.instagram.com/gowtham.photograph__y?igsh=MXZmd2c2bHpqbWV6Mw%3D%3D"><i className="bx bxl-instagram"></i></a>
             </div>
             <div className="team-member">
               <img src="/assets/profile2.jpeg" alt="Clifford Rock" />

@@ -6,7 +6,7 @@ const Work = () => {
         <div className='work-top-container'>
             <h1>HOW IT WORKS</h1>
             <p>A QUICK GLIMPSE AT OUR TIME TOGETHER</p>
-            <a href="#" className='work-btn'><button>START HERE</button></a>
+            <a href="/connect" className='work-btn'><button>START HERE</button></a>
         </div>
         <div className="work-bottom-container">
             <div className="work-card">
@@ -29,7 +29,7 @@ const Work = () => {
                 <h4>Heirlooms</h4>
                 <p className='work-card-descp'>It's time to select your favourite moments for print! Whether you prefer looking through the moments in an album, passing them every day in the halls, flipping through them one at a time in a print box, or a combination of all three - we'll help you find the perfect heirlooms to start building your legacy.</p>
             </div>
-            <a href="#" className='work-mobile-btn'><button>START HERE</button></a>
+            <a href="/connect" className='work-mobile-btn'><button>START HERE</button></a>
         </div>
     </div>
   )

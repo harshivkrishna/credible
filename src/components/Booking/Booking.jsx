@@ -14,14 +14,14 @@ const Booking = () => {
                 <p className='number'>01</p>
                 <h4>Inquire</h4>
                 <p className='booking-descp'>Fill out our inquiry form and give us all the details about you, your significant other and your hopes for your wedding day!</p>
-                <a href="#"><button>CONTACT US</button></a>
+                <a href="/connect"><button>CONTACT US</button></a>
             </div>
 
             <div className="booking-card">
                 <p className='number'>02</p>
                 <h4>Connect</h4>
                 <p className='booking-descp'>We take a limited number of weddings each year. We're big believers in connection and making sure we're the best fit to serve you.</p>
-                <a href="#"><button>GET TO KNOW US</button></a>
+                <a href="/about"><button>GET TO KNOW US</button></a>
             </div>
 
             <div className="booking-card">

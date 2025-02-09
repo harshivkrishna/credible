@@ -6,7 +6,7 @@ const Inquiry = () => {
         <h1>Feel like we'd <br /> be a good fit?</h1>
         <div className='inquiry-connect-container'>
             <h4>Start here and send us your story!</h4>
-            <a href="#"><button>INQUIRE</button></a>
+            <a href="/connect"><button>INQUIRE</button></a>
         </div>
     </div>
   )

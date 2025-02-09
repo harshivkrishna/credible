@@ -15,17 +15,17 @@ const Everything = () => {
         <div className="card">
           <img src="/assets/everything1.jpeg" alt="What to Expect" className="card-image" />
           <h3 className="card-title">What to Expect</h3>
-          <button className="card-button">Our Process</button>
+          <a href="/about"><button className="card-button">Our Process</button></a>
         </div>
         <div className="card">
           <img src="/assets/everything2.jpeg" alt="FAQ" className="card-image" />
           <h3 className="card-title">Frequently Asked Question</h3>
-          <button className="card-button">Learn More</button>
+          <a href="/info"><button className="card-button">Learn More</button></a>
         </div>
         <div className="card">
           <img src="/assets/everything3.jpeg" alt="Heirloom" className="card-image" />
           <h3 className="card-title">Heirloom</h3>
-          <button className="card-button">Your Legacy</button>
+          <a href="/connect"><button className="card-button">Your Legacy</button></a>
         </div>
       </div>
     </div>

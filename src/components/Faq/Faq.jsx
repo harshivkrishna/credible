@@ -14,7 +14,7 @@ const Faq = () => {
                 <p>Editing a film is a creative process and we take it very seriously. Each film goes through a series of iterations till we reach a point where we ourselves are satisfied with it. It usually takes us 20 weeks to deliver the complete wedding film based on our work schedule. And for delivery of edited photos takes us 4 weeks.</p>
             </div>
         </div>
-        <a href="#">CONTINUE TO FAQ PAGE</a>
+        <a href="/info">CONTINUE TO FAQ PAGE</a>
     </div>
   )
 }
