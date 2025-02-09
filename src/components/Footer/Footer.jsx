@@ -16,7 +16,7 @@ const Footer = () => {
             <a href="#"><i className='bx bxl-whatsapp' ></i></a>
             <a href="#"><i className='bx bxl-youtube' ></i></a>
             </div>
-            <p className='copy-text'>Copyright &copy; {date.getFullYear()} Stories by Inside Me</p>
+            <p className='copy-text'>Copyright &copy; {date.getFullYear()} Stories by Credible</p>
         </div>
         <div className='connect-footer-container'>
             <div className='img-footer-container'>
