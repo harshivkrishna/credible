@@ -77,25 +77,59 @@ const Detail = () => {
         <div className="content-box">
           <h2 className="section-title">Our Team</h2>
           <div className="team-container">
-          <div className="team-member">
-                <img src="/assets/profile1.jpeg" alt="Clifford Rock" />
-                <h3>Clifford Rock</h3>
-                <p>Founder</p>
-              </div>
-              <div className="team-member">
-                <img src="/assets/profile2.jpeg" alt="Clifford Rock" />
-                <h3>Clifford Rock</h3>
-                <p>Founder</p>
-              </div>
-              <div className="team-member">
-                <img src="/assets/profile3.jpeg" alt="Clifford Rock" />
-                <h3>Clifford Rock</h3>
-                <p>Founder</p>
-              </div>
-          </div>
+            <div className="team-member">
+              <img src="/assets/team/founder.jpg" alt="founder" />
+              <h3>Gowtham Vijayakumar</h3>
+              <p>Founder</p>
+              <a href="#"><i className="bx bxl-instagram"></i></a>
+            </div>
+            <div className="team-member">
+              <img src="/assets/profile2.jpeg" alt="Clifford Rock" />
+              <h3>Clifford Rock</h3>
+              <p>Founder</p>
+              <a href="#"><i className="bx bxl-instagram"></i></a>
+            </div>
+            <div className="team-member">
+              <img src="/assets/profile3.jpeg" alt="Clifford Rock" />
+              <h3>Clifford Rock</h3>
+              <p>Founder</p>
+              <a href="#"><i className="bx bxl-instagram"></i></a>
+            </div>
+            <div className="team-member">
+              <img src="/assets/profile1.jpeg" alt="Clifford Rock" />
+              <h3>Clifford Rock</h3>
+              <p>Founder</p>
+              <a href="#"><i className="bx bxl-instagram"></i></a>
+            </div>
+
+
+            <div className="team-member">
+              <img src="/assets/profile1.jpeg" alt="Clifford Rock" />
+              <h3>Clifford Rock</h3>
+              <p>Founder</p>
+              <a href="#"><i className="bx bxl-instagram"></i></a>
+            </div>
+            <div className="team-member">
+              <img src="/assets/profile1.jpeg" alt="Clifford Rock" />
+              <h3>Clifford Rock</h3>
+              <p>Founder</p>
+              <a href="#"><i className="bx bxl-instagram"></i></a>
+            </div>
+            <div className="team-member">
+              <img src="/assets/profile2.jpeg" alt="Clifford Rock" />
+              <h3>Clifford Rock</h3>
+              <p>Founder</p>
+              <a href="#"><i className="bx bxl-instagram"></i></a>
+            </div>
+            <div className="team-member">
+              <img src="/assets/profile3.jpeg" alt="Clifford Rock" />
+              <h3>Clifford Rock</h3>
+              <p>Founder</p>
+              <a href="#"><i className="bx bxl-instagram"></i></a>
+            </div></div>
         </div>
       ),
-      image:"/assets/bg-side5.jpeg"
+      image: "/assets/bg-side5.jpeg"
     },
   };
 
@@ -120,9 +154,9 @@ const Detail = () => {
 
       <div className="content-wrapper">
         <div className="content">{sections[selectedSection].content}</div>
-        <div className="image-container">
+        {/* <div className="image-container">
           <img src={sections[selectedSection].image} />
-        </div>
+        </div> */}
       </div>
     </div>
   );

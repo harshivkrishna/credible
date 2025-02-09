@@ -11,10 +11,10 @@ const Footer = () => {
             </div>
             <p className='footer-subtitle'>CAPTURING STORIES WORLDWIDE</p>
             <div className='footer-social-icons'>
-            <a href="#"><i className='bx bxl-instagram'></i></a>
-            <a href="#"><i className='bx bxl-facebook-square' ></i></a>
-            <a href="#"><i className='bx bxl-whatsapp' ></i></a>
-            <a href="#"><i className='bx bxl-youtube' ></i></a>
+            <a href="https://www.instagram.com/credibleweddingstories?igsh=bHh3cXIxeGxhcWc1"><i className='bx bxl-instagram'></i></a>
+            <a href="https://www.facebook.com/share/15xYgMDkfZ/?mibextid=wwXIfr"><i className='bx bxl-facebook-square' ></i></a>
+            <a href="http://wa.me/916379173844"><i className='bx bxl-whatsapp' ></i></a>
+            <a href="https://youtube.com/@credibleweddingstories?si=KngUxz4fxqpsGMEX"><i className='bx bxl-youtube' ></i></a>
             </div>
             <p className='copy-text'>Copyright &copy; {date.getFullYear()} Stories by Credible</p>
         </div>

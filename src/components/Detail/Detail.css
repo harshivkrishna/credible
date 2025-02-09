@@ -146,22 +146,36 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    scale: 1.2;
+    width: 200px;
   }
 
   .team-container{
     display: flex;
     gap: 20px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
   }
 
 
+  .team-member{
+    margin:60px 40px;
+    
+  }
+
+  .team-member i{
+    color: #e9993e;
+    font-size: 20px;
+    margin-top: 10px;
+  }
 
   .team-member h3{
     color: #ebb85e;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 700;
     font-family: 'Poppins';
     letter-spacing: 2px;
+    text-align: center;
   }  
 
   .team-member p{
@@ -173,6 +187,8 @@
     height: 80px;
     border-radius: 50%;
     margin-bottom: 10px;
+    pointer-events: none;
+    scale: 1.2;
   }
   
 
@@ -205,6 +221,10 @@
         gap: 40px;
         margin-top: 50px;
         text-align: center;
+        flex-direction: column;
+    }
+    .team-member{
+      scale: 1.4;
     }
 
     .content{
